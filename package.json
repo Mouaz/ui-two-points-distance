@@ -10,9 +10,12 @@
     "@types/node": "^12.12.24",
     "@types/react": "^16.9.17",
     "@types/react-dom": "^16.9.4",
+    "@types/recompose": "^0.30.7",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-google-maps": "^9.4.5",
     "react-scripts": "3.3.0",
+    "recompose": "^0.30.0",
     "typescript": "^3.7.4"
   },
   "scripts": {
@@ -24,6 +27,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "proxy": "http://localhost:8080",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -35,5 +39,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/google-map-react": "^1.1.3",
+    "@types/google-maps-react": "^2.0.3"
   }
 }
